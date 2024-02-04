@@ -1,0 +1,75 @@
+.hidden {
+  display: none;
+}
+
+body {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#clock {
+  font-size: 160px;
+}
+
+#todo-list {
+  list-style-type: none;
+}
+
+#quote {
+  width: 500px;
+  font-size: 15px;
+}
+
+#weather {
+  font-size: 15px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bottom-border {
+  border-width: 0 0 1px;
+  border-color: white;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.inputName {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.inputTodo {
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: white;
+}
+input::-webkit-input-placeholder {
+  color: white;
+}
+input:-ms-input-placeholder {
+  color: white;
+}
